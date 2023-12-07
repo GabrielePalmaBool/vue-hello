@@ -5,8 +5,32 @@
 }
 
 
+
+
+
+/* main */
 h1 {
     text-align: center;
 
     margin-top: 200px;
+}
+
+
+.ConainerimgS{
+    margin: 0 auto;
+    width: 900px;
+    
+}
+
+.imgS{
+    width: 100%;
+}
+
+.button{
+    margin-top: 30px;
+    text-align: center;
+}
+
+button {
+    margin: 30px 160px 30px 160px
 }
