@@ -25,9 +25,21 @@ createApp({
         }
     },
     methods: {
-        greetings: function () {
-            alert ("ok ok");
+
+        chargeImg: function () {
+
+            this.img1 = "img/prova1.jpg"
+
+            this.messaggio = "Prima del corso Boolean"
+        },
+
+        chargeImg2: function () {
+
+            this.img1 = "https://images-cdn.9gag.com/photo/aegryWm_700b.jpg"
+
+            this.messaggio = "Dopo il corso Boolean"
         }
+
     }
 
 }).mount ('#app');
